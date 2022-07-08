@@ -1,5 +1,8 @@
 # EETIC React Session -2 : Quote Generator 💡
 
+<br/>
+<img width="600" src="https://raw.githubusercontent.com/donjosemathew/eetic-react-session-2/main/public/dp.jpg"/>
+<br/><br/>
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Api Used https://github.com/lukePeavey/quotable#get-random-quote
