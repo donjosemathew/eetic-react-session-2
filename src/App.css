@@ -14,7 +14,18 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background: #8e2de2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #4a00e0,
+    #8e2de2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #4a00e0,
+    #8e2de2
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +46,51 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h1 {
+  font-size: 2.5rem;
+  letter-spacing: -0.01em;
+}
+.head-span {
+  font-weight: 300;
+  display: block;
+}
+.quotecard {
+  background-color: #fff;
+  width: 40vw;
+  height: 30vh;
+  padding: 2rem;
+  border-radius: 0.4rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.11), 0 6px 6px rgba(0, 0, 0, 0.114);
+}
+.quote {
+  color: rgb(45, 45, 45);
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  font-weight: 400;
+}
+.author {
+  font-weight: 500;
+  color: #4a00e0;
+  font-style: italic;
+}
+.btn {
+  outline: none;
+  border: none;
+  background-color: #fff;
+  padding: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+}
+.btn:hover {
+  transform: rotate(60deg);
+  transition: all 0.3s ease-in-out;
+}
+.btn:active {
+  transform: rotate(-60deg);
 }

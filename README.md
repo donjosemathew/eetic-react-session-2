@@ -1,12 +1,33 @@
-# Getting Started with Create React App
+# EETIC React Session -2 : Quote Generator 💡
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Api Used https://github.com/lukePeavey/quotable#get-random-quote
+
+## Packages Used
+
+axios : "^0.27.2" <br/>
+https://axios-http.com/docs/intro <br/><br/>
+react-icons : "^4.4.0" <br>
+https://react-icons.github.io/react-icons/
+
 ## Available Scripts
+
+clone the repo then
+
+### `npm i`
+
+or
+
+### `yarn `
 
 In the project directory, you can run:
 
 ### `npm start`
+
+or
+
+### `yarn start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -68,4 +89,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# eetic-react-session-2" 
+"# eetic-react-session-2"
